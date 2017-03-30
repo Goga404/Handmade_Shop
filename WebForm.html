@@ -1,0 +1,76 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Account</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="Style.css" /> <!--Подключение стилей-->
+    <link rel="stylesheet" type="text/css" href="WebForm.css" />
+</head>
+<body>
+
+    <div id="main">
+
+        <div class="hat content">
+            <div>
+                <h1>Welcome, my dear friend! :)</h1>
+            </div>
+            <div id="search">
+                <form>
+                    <input id="finder" type="search" placeholder="find best gift!" />
+                    <input id="searchButton" type="submit" value="SEARCH" />
+                </form>
+            </div>
+        </div>
+
+        <div class="navigationBar">
+            <a href="#">For him</a> <!--Пока ссылки пустые-->
+            <a href="#">For her</a>
+            <a href="#">For kids</a>
+            <a href="#" id="pokemon">Pokemon</a>
+            <a href="#">Personalised</a>
+            <a href="#">Exotic</a>
+        </div>
+
+        <div class="content">
+
+            <h2>new account creation</h2>
+
+            <form>
+                <p>Frist Name:</p>
+                <input class="input" type="text" name="firstName" value="Please enter your first name">
+                <br />
+                <p>Last Name:</p>
+                <input class="input" type="text" name="lastName" value="Please enter your last name">
+                <br />
+                <p>Email Address:</p>
+                <input class="input" type="text" name="e-mail" value="e-mail">
+
+                <br />
+
+                <input class="checkbox" type='checkbox' checked> I wish to subscribe to newsletters that include special offers and new gift ideas
+
+                <br />
+
+                <p>Password:</p>
+                <input class="input" type="text" name="password" 
+                       value="Your password should contain 6 letters or more" />
+                <br/>
+                <p>Confirm Password:</p>
+                <input class="input" type="text" name="confirmPassword" />
+
+                <p>Comments:</p>
+                <textarea></textarea>
+
+                <br />
+
+                <input type='radio'>Variant1
+                <br />
+                <input type='radio'>Variant2
+                <br />
+                <input class="submit" type="submit" value="Create Account">
+        </div>
+
+        </form>
+    </div>
+</body>
+</html>

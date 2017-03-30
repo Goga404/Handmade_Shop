@@ -1,0 +1,30 @@
+﻿h2 {
+    text-transform: uppercase;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.input {
+    width: 50%;
+    height: 2.5em;
+    margin-bottom: 15px;
+    padding: 0;
+}
+
+.checkbox {
+    margin-bottom: 15px;
+}
+
+.submit {
+    font-size: 1.25em;
+    text-transform: uppercase;
+    padding: 10px 0;
+    width: 40%;
+    max-width:400px;
+    min-width: 200px;
+    background-color: #f47702;
+    margin: 15px 0 40px 0;
+}

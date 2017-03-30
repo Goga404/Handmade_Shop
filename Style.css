@@ -1,0 +1,233 @@
+﻿* {
+    box-sizing: border-box; /*Fixed box parameters (includes padding, border, etc.)*/
+}
+
+body {
+    font-size: 100%; /* For correct display font-size in em's for IE*/
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased; /* test */
+    font-family: "Comic Sans MS", sans-serif;
+}
+
+p {
+    font-size: 1em;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 28px;
+}
+
+td {
+    margin: 0;
+    padding: 0;
+    font-weight: 900;
+    color: antiquewhite;
+    font-size: 42px;
+    text-align: center;
+    height: 125px;
+}
+
+/*Навигационный бар*/
+.navigationBar {
+    background-color: #414042;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    margin-bottom: 10px;
+    margin-top: -10px;
+}
+
+/* Внутри (ссылки) навигационного бара*/
+.navigationBar a {
+    margin: 0;
+    font-size: 1em;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 16px; /* Нужен 0 для верт. выравнивания!*/
+    color: whitesmoke;
+    height: 50px; /*height=line-height - выравнивает по вертикали,*/
+    line-height: 50px;  /*такое выравнивание нельзя использовать с padding!!!*/
+    display: inline-block; /* inline-flex */
+}
+
+/*Изменение цвета бара при наведении*/
+.navigationBar a:hover {
+    background-color: #ed7600;
+}
+
+.hat {
+    text-align: center;
+}
+
+.hat div { /* в ряд */
+    width: 50%;
+    display: inline-block;
+}
+
+.menu {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.menu div {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+    vertical-align: top;
+}
+
+.text {
+    text-align: center;
+}
+
+.navigationBar #pokemon:hover { /* аааха-ха!!!)) */
+    background-color: white;
+    color: red;
+    font-weight: 900;
+    height: 52px;
+    font-size: 20px;
+    font-style: oblique, italic;
+    -webkit-text-stroke: black 2px; /* Рамка вокруг букв */
+}
+
+.navigationBar a:active { /* onclick */
+    background-color: burlywood;
+}
+
+.samples {
+    padding: 0;
+    width: 240px;
+    display: inline-block;
+    position: relative;
+    margin: 2px;
+}
+
+.samples a img {
+    width: 240px;
+    height: 240px;
+}
+
+    .mini img:hover { /* brighter on hover */
+       /* -webkit-filter: brightness(110%); --- not for IE */
+        /*filter: alpha(opacity=80);
+        opacity: .9; - 'brighter' that works for IE*/
+        -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        transform: scale(1.2);
+        transition: 2s ease;
+        position: relative; /* z-index not working without current position */
+        z-index: 9;
+    }
+
+.content {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 100%;
+    position: relative;
+}
+
+    .button:active {
+        top: 5px; /* Make clickable button */
+    }
+
+    .button:hover { /* brighter on hover */
+        /* -webkit-filter: brightness(110%); - not for IE */
+        box-shadow: inset 0 0 100px 100px rgba(255, 255, 255, 0.1); 
+    }
+
+.clear {
+    clear: both;
+}
+
+.mini {
+    text-align: center;
+}
+
+#main { /*контроль над контентной частью*/
+    margin-top: 50px;
+}
+
+#search {
+    vertical-align: bottom;
+    margin: 0 auto;
+    width: auto;
+}
+
+#finder {
+    height: 40px;
+    margin: 20px -5px 20px 20px;
+    font-size: 16px;
+}
+
+#searchButton {
+    background-color: #f47702;
+    height: 40px;
+    line-height: 36px;
+    margin-left: 0;
+    border: 2px solid #f47702;
+}
+
+#sale {
+    background-color: #990d0d;
+}
+
+#kids {
+    background-color: #35B5E6;
+}
+
+#her {
+    background-color: #f76782;
+}
+
+#gallery {
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 640px;
+    height: 394px;
+    color: whitesmoke;
+    font-size: 44px;
+    background-image: url(img/g1.jpg), url(img/g2.jpg), url(img/g3.jpg);
+    background-position: left, center, right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#gallery:hover {
+    border-radius:50%;
+    transition: 3s ease;
+}
+
+#banner {
+    width: 340px;
+    height: 394px;
+}
+
+#banner div {
+    padding: 0;
+    margin-bottom: 5px;
+    height: 128px;
+    line-height: 128px;
+    color: whitesmoke;
+    overflow: hidden;
+    font-weight: 900;
+    text-align: center;
+    font-size: 46px;
+}
+
+#angle {
+    transform: rotate(-20deg);
+    position: relative;
+    top: 240px;
+    left: 100px;
+    color: limegreen;
+    font-weight: 900;
+}
