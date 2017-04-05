@@ -91,7 +91,7 @@ td {
     font-weight: 900;
     height: 52px;
     font-size: 20px;
-    font-style: oblique, italic;
+    font-style: italic;
     -webkit-text-stroke: black 2px; /* Рамка вокруг букв */
 }
 
