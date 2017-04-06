@@ -11,7 +11,7 @@ body {
 }
 
 p {
-    font-size: 1em;
+    font-size: 1.15em;
     line-height: 120%; /* 120-150% is a good practice*/
 }
 
@@ -20,7 +20,7 @@ a {
 }
 
 h1 {
-    font-size: 28px;
+    font-size: 2em;
 }
 
 td {
@@ -28,7 +28,7 @@ td {
     padding: 0;
     font-weight: 900;
     color: antiquewhite;
-    font-size: 42px;
+    font-size: 3em;
     text-align: center;
     height: 125px;
 }
@@ -90,8 +90,8 @@ td {
     background-color: white;
     color: red;
     font-weight: 900;
-    height: 52px;
-    font-size: 20px;
+    height: 53px;
+    font-size: 1.42em;
     font-style: italic;
     -webkit-text-stroke: black 2px; /* Рамка вокруг букв */
 }
@@ -165,7 +165,7 @@ td {
 #finder {
     height: 40px;
     margin: 20px -5px 20px 20px;
-    font-size: 16px;
+    font-size: 1.142em;
 }
 
 #searchButton {
@@ -195,7 +195,7 @@ td {
     width: 640px;
     height: 394px;
     color: whitesmoke;
-    font-size: 44px;
+    font-size: 2.75em;
     background-image: url(img/g1.jpg), url(img/g2.jpg), url(img/g3.jpg);
     background-position: left, center, right;
     background-size: contain;
@@ -221,7 +221,7 @@ td {
     overflow: hidden;
     font-weight: 900;
     text-align: center;
-    font-size: 46px;
+    font-size: 2.875em;
 }
 
 #angle {
