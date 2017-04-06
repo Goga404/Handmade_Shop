@@ -12,6 +12,7 @@ body {
 
 p {
     font-size: 1em;
+    line-height: 120%; /* 120-150% is a good practice*/
 }
 
 a {
