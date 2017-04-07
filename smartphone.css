@@ -1,0 +1,33 @@
+﻿body {
+    font-size: 80%; /* For correct display font-size in em's for IE*/
+}
+
+#gallery {
+    max-width: 400px;
+    height: 360px;
+    font-size: 2.75em;
+    background-image: url(img/g1.jpg), url(img/g3.jpg);
+    background-position: left, right;
+}
+
+#angle {
+    top: 240px;
+    left: 40px;
+}
+
+#banner {
+    width: 340px;
+    height: 394px;
+}
+
+#banner div {
+    padding: 0;
+    margin-bottom: 5px;
+    height: 128px;
+    line-height: 128px;
+    color: whitesmoke;
+    overflow: hidden;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.875em;
+}

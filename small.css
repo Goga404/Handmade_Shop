@@ -1,0 +1,46 @@
+﻿body {
+    font-size: 90%; /* For correct display font-size in em's for IE*/
+}
+
+.content {
+
+}
+
+.samples {
+    width: 200px;
+}
+
+.samples a img {
+    width: 200px;
+    height: 200px;
+}
+
+#gallery {
+    max-width: 400px;
+    height: 360px;
+    font-size: 2.75em;
+    background-image: url(img/g1.jpg), url(img/g3.jpg);
+    background-position: left, right;
+}
+
+#angle {
+    top: 260px;
+    left: 30px;
+}
+
+#banner {
+    width: 300px;
+    height: 360px;
+}
+
+#banner div {
+    padding: 0;
+    margin-bottom: 4px;
+    height: 117.3px;
+    line-height: 117.3px;
+    color: whitesmoke;
+    overflow: hidden;
+    font-weight: 900;
+    text-align: center;
+    font-size: 2.4em;
+}

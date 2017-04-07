@@ -11,7 +11,7 @@ body {
 }
 
 p {
-    font-size: 1.15em;
+    font-size: 1.1em;
     line-height: 120%; /* 120-150% is a good practice*/
 }
 
@@ -227,7 +227,7 @@ td {
 #angle {
     transform: rotate(-20deg);
     position: relative;
-    top: 240px;
+    top: 270px;
     left: 100px;
     color: limegreen;
     font-weight: 900;
