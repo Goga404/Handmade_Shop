@@ -1,5 +1,6 @@
 ﻿* {
     box-sizing: border-box; /*Fixed box parameters (includes padding, border, etc.)*/
+    -moz-box-sizing: border-box;
 }
 
     *::selection {
