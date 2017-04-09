@@ -1,6 +1,14 @@
 ﻿body {
     font-size: 80%; /* For correct display font-size in em's for IE*/
 }
+.samples {
+    width: 200px;
+}
+
+.samples a img {
+    width: 200px;
+    height: 200px;
+}
 
 #gallery {
     max-width: 400px;
