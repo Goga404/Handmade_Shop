@@ -115,6 +115,7 @@ td {
 .samples a img {
     width: 240px;
     height: 240px;
+
     transition: 2s ease-out;
 }
 
