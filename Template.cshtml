@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>HandmadeStore</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="Styles/Style.css" /> <!--Подключение стилей-->
+    <link rel="stylesheet" type="text/css" href="Styles/small.css" media="screen and (max-width: 1000px)" />
+    <link rel="stylesheet" type="text/css" href="Styles/pad.css" media="screen and (max-width: 720px)" />
+    <link rel="stylesheet" type="text/css" href="Styles/smartphone.css" media="screen and (max-width: 480px)" />
+    <link rel="stylesheet" type="text/css" href="Styles/WebForm.css" />
+</head>
+<body>
+    <div id="main">
+
+        <div class="hat content">
+            <div>
+                <h1>Welcome to our Handmade Store! :)</h1>
+            </div>
+            <div id="search">
+                <form>
+                    <input id="finder" type="search" placeholder="find best gift!" />
+                    <input id="searchButton" type="submit" value="SEARCH" />
+                </form>
+            </div>
+        </div>
+
+        <div class="navigationBar">
+            <a href="#">For him</a> <!--Пока ссылки пустые-->
+            <a href="#">For her</a>
+            <a href="#">For kids</a>
+            <a href="#" id="pokemon">Pokemon</a>
+            <a href="#">Personalised</a>
+            <a href="#">Exotic</a>
+            <a href="WebForm.cshtml" style="background-color: forestgreen">Register account</a>
+        </div>
+
+        @RenderBody();
+
+    </div>
+
+    <script src='https://code.jquery.com/jquery-3.1.0.min.js'></script> <!--connecting jQuery-->
+    <script src="JavaScript.js"></script> <!--Подключение скрипта-->
+</body>
+</html>
