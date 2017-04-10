@@ -115,6 +115,7 @@ td {
 .samples a img {
     width: 240px;
     height: 240px;
+    transition: 2s ease-out;
 }
 
     .mini img:hover { /* brighter on hover */
@@ -204,10 +205,12 @@ td {
     background-position: left, center, right;
     background-size: contain;
     background-repeat: no-repeat;
+
+    transition: 3s ease-out; /* Плавный возварт после ховера */
 }
 
     #gallery:hover {
-     border-radius:50%;
+        border-radius:50%;
         transition: 3s ease;
     }
 
