@@ -1,6 +1,7 @@
 ﻿body {
     font-size: 80%; /* For correct display font-size in em's for IE*/
 }
+
 .samples {
     width: 180px;
 }

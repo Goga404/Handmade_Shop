@@ -1,0 +1,18 @@
+﻿body {
+}
+
+.samples {
+    width: 150px;
+}
+
+.samples a img {
+    width: 150px;
+    height: 150px;
+}
+#gallery {
+    max-width: 320px;
+    height: 300px;
+    font-size: 2.75em;
+    background-image: url(../img/g1.jpg), url(../img/g3.jpg);
+    background-position: left, right;
+}

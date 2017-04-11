@@ -26,6 +26,7 @@ a {
 
 h1 {
     font-size: 2em;
+    font-family: 'Lobster', serif;
 }
 
 td {
@@ -73,7 +74,7 @@ td {
       height: 53px;
       font-size: 1.42em;
       font-style: italic;
-      -webkit-text-stroke: black 2px; /* Рамка вокруг букв */
+      -webkit-text-stroke: black 0.5px; /* Рамка вокруг букв */
     }
 
     .navigationBar a:active { /* onclick */
