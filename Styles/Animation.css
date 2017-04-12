@@ -1,0 +1,33 @@
+﻿.animations section[role=main] {
+    margin-left: 120px;
+}
+
+.animations .pagetitle {
+    position: relative;
+    animation: drop-in 1s forwards;
+}
+
+.animations .box {
+    position: relative;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    min-width: 295px;
+    width: 600px;
+    min-height: 195px;
+    font-size: 20pt;
+    background-color: #121111;
+}
+
+.animate-exotic {
+    text-align: center;
+    animation: exotic 5s forwards; /* forwards - сохраниться конечное положение анимации*/
+}
+
+@keyframes exotic {
+    0% {box-shadow: 0 0 1px 1px #000; text-shadow: 2px #ff6a00;}
+    60% {color: #991100; font-size: 22pt; text-shadow: blue;}
+    80% {color: #FF0000; font-size: 28pt;}
+    90% {color: #22DD22; font-size: 16pt; }
+    100% {color: #110000; font-size: 40pt; background-color: forestgreen; border-radius: 100%;}
+}
