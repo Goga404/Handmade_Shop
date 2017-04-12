@@ -39,6 +39,10 @@ td {
     height: 125px;
 }
 
+figcaption {
+    background-color: white;
+}
+
 /*Навигационный бар*/
 .navigationBar {
     background-color: #414042;
@@ -112,16 +116,16 @@ td {
     display: inline-block;
     position: relative;
     margin: 2px;
+
+    transition: 2s ease-out;
 }
 
 .samples a img {
     width: 240px;
     height: 240px;
-
-    transition: 2s ease-out;
 }
 
-    .mini img:hover { /* brighter on hover */
+    .samples:hover { /* brighter on hover */
        /* -webkit-filter: brightness(110%); --- not for IE */
         /*filter: alpha(opacity=80);
         opacity: .9; - 'brighter' that works for IE*/
