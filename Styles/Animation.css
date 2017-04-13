@@ -17,7 +17,7 @@
 
 @keyframes exotic {
     0% {box-shadow: 0 0 1px 1px #000; text-shadow: 2px #ff6a00;}
-    100% {color: #110000; font-size: 40pt; transform: rotate(13deg);}
+    100% {color: #110000; transform: rotate(13deg);}
 }
 
 .animations {

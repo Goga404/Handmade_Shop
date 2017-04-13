@@ -1,4 +1,6 @@
-﻿function main() {
+﻿/// <reference path="Exotic.cshtml" />
+/// <reference path="Exotic.cshtml" />
+function main() {
     $('.button').hide(); /* added a CSS property of display: none */
     $('#sale').fadeIn(2000);
     $('#kids').fadeIn(3000);
