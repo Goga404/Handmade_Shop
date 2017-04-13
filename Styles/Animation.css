@@ -1,33 +1,61 @@
-﻿.animations section[role=main] {
-    margin-left: 120px;
-}
-
-.animations .pagetitle {
+﻿.animations .box {
+    margin: 30px 0 0 80px;
     position: relative;
-    animation: drop-in 1s forwards;
-}
-
-.animations .box {
-    position: relative;
-    display: table-cell;
+    display: inline-block;
     text-align: center;
-    vertical-align: middle;
+    vertical-align: top;
     min-width: 295px;
-    width: 600px;
-    min-height: 195px;
-    font-size: 20pt;
-    background-color: #121111;
+    max-width: 400px;
+    height: 195px 195px;
+    font-size: 2em;
+    background-color: #ff6a00;
 }
 
 .animate-exotic {
-    text-align: center;
-    animation: exotic 5s forwards; /* forwards - сохраниться конечное положение анимации*/
+    animation: exotic 90s forwards; /* forwards - сохраниться конечное положение анимации*/
 }
 
 @keyframes exotic {
     0% {box-shadow: 0 0 1px 1px #000; text-shadow: 2px #ff6a00;}
-    60% {color: #991100; font-size: 22pt; text-shadow: blue;}
-    80% {color: #FF0000; font-size: 28pt;}
-    90% {color: #22DD22; font-size: 16pt; }
-    100% {color: #110000; font-size: 40pt; background-color: forestgreen; border-radius: 100%;}
+    100% {color: #110000; font-size: 40pt; transform: rotate(13deg);}
+}
+
+.animations {
+    overflow: hidden;
+    background-image: url('../img/beach.jpg');
+    background-repeat: no-repeat;
+}
+
+.palm {
+    position: relative;
+    left: 550px;
+    animation: anipalm 7s forwards;
+    overflow: hidden;
+}
+
+@-moz-keyframes anipalm {
+    0% {top: 1000px;}
+    20%{top: 200px;}
+    40%{top: 15px;}
+    60% {top: 600px;}
+    80% {top: -400px;}
+    100% {left: 0;top: 0px;}
+}
+
+@-webkit-keyframes anipalm {
+    0% {top: 1000px;}
+    20%{top: 200px;}
+    40%{top: 15px;}
+    60% {top: 600px;}
+    80% {top: -400px;}
+    100% {left: 0;top: 0px;}
+}
+
+@keyframes anipalm {
+    0% {top: 1000px;}
+    20%{top: 200px;}
+    40%{top: 15px;}
+    60% {top: 600px;}
+    80% {top: -400px;}
+    100% {left: 0;top: 0px;}
 }
