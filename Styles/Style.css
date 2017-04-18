@@ -71,6 +71,10 @@ footer {
     display: inline-block; /* inline-flex */
 }
 
+.navigationBar a::selection {
+    background-color: burlywood; 
+}
+
 /*Изменение цвета бара при наведении*/
     .navigationBar a:hover {
     background-color: #ed7600;
@@ -84,10 +88,6 @@ footer {
       font-size: 1.42em;
       font-style: italic;
       -webkit-text-stroke: black 0.5px; /* Рамка вокруг букв */
-    }
-
-    .navigationBar a:active { /* onclick */
-     background-color: burlywood;
     }
 
 .hat {

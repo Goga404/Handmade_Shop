@@ -9,8 +9,17 @@
                 <p>Last Name:</p>
                 <input class="input" type="text" name="lastName" placeholder="Please enter your last name" required>
                 <br />
+
+                <p>Gender:</p>
+                <select name="gender">
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                    <option value="unnown">unnown =\</option>
+                </select>
+                <br />
+
                 <p>Email Address:</p>
-                <input class="input" type="text" name="e-mail" placeholder="e-mail" required>
+                <input class="input" type="email" name="e-mail" placeholder="e-mail" required>
 
                 <br />
 
@@ -25,13 +34,15 @@
                 <input class="input" type="text" name="confirmPassword" required/>
 
                 <p>Comments:</p>
-                <textarea></textarea>
+                <textarea name="comments" rows="10" cols="50"></textarea>
 
                 <br />
-
-                <input type='radio'>Variant1
                 <br />
-                <input type='radio'>Variant2
+
+                <input type='radio' name="variant">Variant1
+                <br />
+                <input type='radio' name="variant">Variant2
+                <br />
                 <br />
                 <input class="submit" type="submit" value="Create Account" />
             </form>
