@@ -1,4 +1,9 @@
-﻿.input {
+﻿fieldset {
+    width: 50%;
+    margin: 30px 0 20px 0;
+}
+
+.input {
     width: 50%;
     height: 2.5em;
     margin-bottom: 15px;

@@ -11,12 +11,13 @@
                 <br />
 
                 <p>Gender:</p>
-                <select name="gender">
-                    <option value="male">male</option>
-                    <option value="female">female</option>
-                    <option value="unnown">unnown =\</option>
-                </select>
-                <br />
+                <p>
+                    <select name="gender">
+                        <option value="male">male</option>
+                        <option value="female">female</option>
+                        <option value="unnown">unnown =\</option>
+                    </select>
+                </p>
 
                 <p>Email Address:</p>
                 <input class="input" type="email" name="e-mail" placeholder="e-mail" required>
@@ -28,22 +29,22 @@
                 <br />
 
                 <p>Password:</p>
-                <input class="input" type="text" name="password" placeholder="Your password should contain 6 letters or more" required/>
+                <input class="input" type="password" name="password" placeholder="Your password should contain 6 letters or more" required/>
                 <br />
                 <p>Confirm Password:</p>
-                <input class="input" type="text" name="confirmPassword" required/>
+                <input class="input" type="password" name="confirmPassword" required/>
 
                 <p>Comments:</p>
                 <textarea name="comments" rows="10" cols="50"></textarea>
 
                 <br />
-                <br />
-
-                <input type='radio' name="variant">Variant1
-                <br />
-                <input type='radio' name="variant">Variant2
-                <br />
-                <br />
+                <fieldset><legend>Variants</legend>
+                    <input type='radio' name="variant"><label for="variant">Variant1</label>
+                    <br />
+                    <input type='radio' name="variant"><label for="variant">Variant2</label>
+                    <br />
+                    <br />
+                </fieldset>
                 <input class="submit" type="submit" value="Create Account" />
             </form>
 

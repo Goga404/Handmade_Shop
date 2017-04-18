@@ -16,3 +16,8 @@
     background-image: url(../img/g1.jpg), url(../img/g3.jpg);
     background-position: left, right;
 }
+
+#angle {
+    top: 200px;
+    left: 40px;
+}
