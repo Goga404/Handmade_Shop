@@ -32,24 +32,35 @@
             </div>
         </div>
 
-        <div class="navigationBar">
-            <a href="~/index.cshtml">Home</a> <!-- ul>li??? -->
-            <a href="#">For him</a> <!--Пока ссылки пустые-->
-            <a href="#">For her</a>
-            <a href="#">For kids</a>
-            <a href="#" id="pokemon">Pokemon</a>
-            <a href="#">Personalised</a>
-            <a href="~/Exotic.cshtml">Exotic</a>
-            <a href="WebForm.cshtml" style="background-color: forestgreen">Register account</a>
-        </div>
+        <nav class="navigationBar">
+            <ul>
+                <li><a href="~/index.cshtml">Home</a></li> <!-- ul>li??? -->
+                <li>
+                    <a href="#">Gifts</a>
+                    <div class="submenu">
+                        <div class="menu-row">
+                            <ul>
+                                <li><a>Option</a></li>
+                                <li><a>Option</a></li>
+                                <li><a>Option</a></li>
+                                <li><a>Option</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li><a href="#" id="pokemon">Pokemon</a></li>
+                <li><a href="~/Exotic.cshtml">Exotic</a></li>
+                <li><a href="WebForm.cshtml" style="background-color: forestgreen">Register account</a></li>
+            </ul>
+        </nav>
 
         @RenderBody()
 
         <footer class="content">
             &copy; 2017, Handmade by Margarita
-            <br/>
+            <br />
             Contact support:
-            <br/>
+            <br />
             email: justanothergoga@gmail.com
         </footer>
 
