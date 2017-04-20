@@ -54,8 +54,15 @@ footer {
     width: 100%;
     text-align: center;
     height: 100%;
+    padding: 0;
     margin-bottom: 15px;
     margin-top: -10px;
+}
+
+.navigationBar ul{
+    display: inline-block;
+    padding: 0;
+    margin: 0;
 }
 
 .navigationBar ul li {
