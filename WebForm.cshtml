@@ -1,25 +1,28 @@
 ﻿        <div class="content">
 
-            <h2 style="text-transform: uppercase">new account creation</h2>
+            <h2 style="text-transform: uppercase" id="accountCreate">new account creation</h2>
 
             <form>
-                <p>Frist Name:</p>
+                <label for="firstName">Frist Name:</label>
                 <input class="input" type="text"  name="firstName" placeholder="Please enter your first name" autofocus required> <!-- Autofocus -->
                 <br />
-                <p>Last Name:</p>
+                <label for="lastName">Last Name:</label>
                 <input class="input" type="text" name="lastName" placeholder="Please enter your last name" required>
                 <br />
 
-                <p>Gender:</p>
-                <p>
-                    <select name="gender">
-                        <option value="male">male</option>
-                        <option value="female">female</option>
-                        <option value="unnown">unnown =\</option>
-                    </select>
-                </p>
+                <div id="gender">
+                    <label for="gender" class="line">Gender:</label>
+                    <p class="line">
+                        <select name="gender">
+                            <option value="male">male</option>
+                            <option value="female">female</option>
+                            <option value="unnown">unnown =\</option>
+                        </select>
+                    </p>
+                </div>
+                <br />
 
-                <p>Email Address:</p>
+                <label for="e-mail">Email Address:</label>
                 <input class="input" type="email" name="e-mail" placeholder="e-mail" required>
 
                 <br />
@@ -28,13 +31,15 @@
 
                 <br />
 
-                <p>Password:</p>
+                <label for="password">Password:</label>
                 <input class="input" type="password" name="password" placeholder="Your password should contain 6 letters or more" required/>
                 <br />
-                <p>Confirm Password:</p>
+                <label for="confirmPassword">Confirm Password:</label>
                 <input class="input" type="password" name="confirmPassword" required/>
+                <br />
 
-                <p>Comments:</p>
+                <label for="comments">Comments:</label>
+                <br />
                 <textarea name="comments" rows="10" cols="50"></textarea>
 
                 <br />
