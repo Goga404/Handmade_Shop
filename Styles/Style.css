@@ -18,6 +18,7 @@ body {
 p {
     font-size: 1.1em;
     line-height: 120%; /* 120-150% is a good practice*/
+    hyphens: auto; /* Автоматический перенос слов */
 }
 
 a {
