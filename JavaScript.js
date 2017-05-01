@@ -5,6 +5,9 @@ function main() {
     $('#sale').fadeIn(2000);
     $('#kids').fadeIn(3000);
     $('#her').fadeIn(4000);
+
+    
+    $(".palm").addClass("anipalm");
 }
 
 $(document).ready(main); /* jQuery built in function to check if the page is ready before it will run our code. 

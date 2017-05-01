@@ -12,7 +12,7 @@
 }
 
 .animate-exotic {
-    animation: exotic 90s forwards; /* forwards - сохраниться конечное положение анимации*/
+    animation: exotic 140s forwards; /* forwards - сохраниться конечное положение анимации*/
 }
 
 @keyframes exotic {
@@ -29,8 +29,11 @@
 .palm {
     position: relative;
     left: 550px;
-    animation: anipalm 7s forwards;
     overflow: hidden;
+}
+
+.anipalm {
+    animation: anipalm 7s forwards;
 }
 
 @-moz-keyframes anipalm {

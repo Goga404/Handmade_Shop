@@ -49,6 +49,10 @@ footer {
     padding: 170px 0 100px 0;
 }
 
+input:focus {
+    background-color: #fbbe5e;
+}
+
 /*Навигационный бар*/
 .navigationBar {
     background-color: #414042;
@@ -62,7 +66,6 @@ footer {
 
 .navigationBar ul {
     list-style-type: none;
-    display: inline-block;
     padding: 0;
     margin: 0;
 }
@@ -93,11 +96,20 @@ footer {
     background-color: #ed7600;
     }
 
+.navigationBar ul li:hover .submenu{
+    margin: 0;
+    padding: 0;
+    z-index: 99;
+    display: block;
+    position: fixed;
+    background-color: #414042;
+}
+
     .navigationBar #pokemon:hover { /* аааха-ха!!!)) */
       background-color: white;
       color: red;
       font-weight: 900;
-      height: 53px;
+      height: 54px;
       font-size: 1.42em;
       font-style: italic;
       -webkit-text-stroke: black 0.5px; /* Рамка вокруг букв */
@@ -186,15 +198,6 @@ footer {
 
 .submenu {
     display:none;
-}
-
-.navigationBar ul li:hover .submenu{
-    margin: 0;
-    padding: 0;
-    z-index: 99;
-    display: block;
-    position: fixed;
-    background-color: #414042;
 }
 
 .menu-row ul li {
