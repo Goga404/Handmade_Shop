@@ -87,14 +87,14 @@ input:focus {
     display: inline-block; /* inline-flex */
 }
 
-.navigationBar a::selection {
-    background-color: burlywood; 
-}
-
 /*Изменение цвета бара при наведении*/
     .navigationBar a:hover {
     background-color: #ed7600;
     }
+    
+.navigationBar a:active {
+    background-color: burlywood; 
+}
 
 .navigationBar ul li:hover .submenu{
     margin: 0;
@@ -105,7 +105,7 @@ input:focus {
     background-color: #414042;
 }
 
-    .navigationBar #pokemon:hover { /* аааха-ха!!!)) */
+    .navigationBar #pokemon:hover { 
       background-color: white;
       color: red;
       font-weight: 900;
