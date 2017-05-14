@@ -210,8 +210,8 @@ input:focus {
 }
 
 #search {
-    vertical-align: bottom;
-    margin: 0 auto;
+    margin: 0;
+    padding: 0;
     width: auto;
 }
 
@@ -224,8 +224,9 @@ input:focus {
 #searchButton {
     background-color: #f47702;
     height: 40px;
-    line-height: 36px;
-    margin-left: 0;
+    line-height: 40px;
+    margin: 0;
+    padding: 0;
     border: 2px solid #f47702;
 }
 
@@ -286,4 +287,5 @@ input:focus {
     left: 100px;
     color: limegreen;
     font-weight: 900;
+    text-shadow: 3px 3px 2px #121212;
 }
